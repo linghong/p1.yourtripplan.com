@@ -1,0 +1,64 @@
+/*
+Title:My Bio
+Description: Harvard Extension Class: Dynamic Website Application, Project 1
+URI: http://p1.yourtripplan.com/
+Author: Linghong Chen
+Tags: one page, light color, two-columns, right-sidebar
+*/
+
+article,aside,header,footer{
+	display:block;
+}
+ 
+body{
+ background-color:url(../img/background.jpg) repeat-y;
+ color:black;
+ font-size:15px;
+ font-family:"Truebuchet MS", "Helvetica", Serif;
+ max-width:950px;
+ width:100%;
+ }
+
+ header{
+ background-color: #CC99FF;
+ height:40px;
+ text-align:center;
+ width:100%;
+ float:left;		
+ }
+
+ article{
+ margin:1%;
+ background-color: #6699FF;
+ text-align:justify;
+ width:70%;
+ float:left;	
+ }
+
+ aside{
+   	float:right;
+ 	width:23%;
+    background-color: #6699CC;
+    text-align:left;
+    border:4px solid purple;
+    margin:1%;
+    padding:1%;
+ }
+
+ h1{
+ 	font-weight:bold;
+ 	font-size:22px;
+ }
+ 
+  .box{
+  width:90%;
+  background-color: #FFFF99;
+  border:4px solid #FF9910;
+  }
+  
+ footer{
+  border:4px solid purple;
+  width:100%;
+  height:30px;
+  background-color:#0099FF;
+  } 
