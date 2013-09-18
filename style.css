@@ -11,12 +11,12 @@ article,aside,header,footer{
 }
  
 body{
- background-color:
- #CCCCCC;
+ background-color:#CCCCCC;
  color:black;
  font-size:15px;
  font-family:"Truebuchet MS", "Helvetica", Serif;
- max-width:950px;
+ max-width:1050px;
+ min-width:750px;
  width:100%;
  }
 
@@ -24,7 +24,7 @@ body{
  background-color: #CC99FF;
  height:50px;
  text-align:center;
- font-size:26px;
+ font-size:28px;
  width:100%;
  float:left;
  padding-top:10px;		
@@ -34,14 +34,14 @@ body{
  margin:1%;
  background-color: #6699FF;
  text-align:justify;
- width:67%;
+ width:65%;
  float:left;
  padding:1%;	
  }
 
  aside{
    	float:right;
- 	width:22%;
+ 	width:26%;
     background-color: #6699CC;
     text-align:left;
     border:4px solid purple;
@@ -52,7 +52,7 @@ body{
  h1{
   text-align:center;
   font-weight:bold;
- 	font-size:20px;
+ 	font-size:22px;
  }
 
   h2{
@@ -63,18 +63,14 @@ body{
   h3{
   text-align:center;
   font-weight:bold;
-  font-size:14px;
+  font-size:15px;
  }
   .box{
   width:95%;
   background-color: #FFFF99;
-  border:4px solid #FF9910;
-  margin:4px;
+  border:2px solid #FF9910;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:center;
   }
   
- footer{
-  border:4px solid purple;
-  width:100%;
-  height:30px;
-  background-color:#0099FF;
-  } 
